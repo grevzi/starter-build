@@ -5,11 +5,8 @@ export interface User {
     last: string;
   };
 }
-const sum = (
-  a: number,
 
-  b: number
-) => a + b;
+const sum = (a: number, b: number) => a + b;
 
 export const sayMyName = (name: string) => `Hello ${name}`;
 
