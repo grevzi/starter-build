@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "husky install",
     "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|json|css|html|md)\"",
